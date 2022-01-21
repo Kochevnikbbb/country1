@@ -58,5 +58,7 @@ public class MainFragment extends Fragment implements OnClick {
 
         Fragment fragment = new SecondFragment();
         requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container,fragment).commit();
+
+
     }
 }
