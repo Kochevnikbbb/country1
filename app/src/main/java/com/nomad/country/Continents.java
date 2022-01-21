@@ -24,4 +24,6 @@ public class Continents {
     public void setImage(Integer image) {
         this.image = image;
     }
+
+
 }
