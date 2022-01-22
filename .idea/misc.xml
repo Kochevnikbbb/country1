@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bbbaa/AndroidStudioProjects/country/app/src/main/res/drawable/ic_asset_2legalize.xml" value="0.2703125" />
+        <entry key="..\:/Users/bbbaa/AndroidStudioProjects/country/app/src/main/res/drawable/ic_au_3x.xml" value="0.2703125" />
         <entry key="..\:/Users/bbbaa/AndroidStudioProjects/country/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/bbbaa/AndroidStudioProjects/country/app/src/main/res/layout/fragment_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/bbbaa/AndroidStudioProjects/country/app/src/main/res/layout/fragment_second.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/bbbaa/AndroidStudioProjects/country/app/src/main/res/layout/fragment_thirth.xml" value="0.1" />
         <entry key="..\:/Users/bbbaa/AndroidStudioProjects/country/app/src/main/res/layout/item_continent.xml" value="0.264" />
         <entry key="..\:/Users/bbbaa/AndroidStudioProjects/country/app/src/main/res/layout/item_country.xml" value="0.264" />
       </map>

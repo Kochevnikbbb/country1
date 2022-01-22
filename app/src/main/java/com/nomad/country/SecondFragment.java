@@ -46,7 +46,6 @@ public class SecondFragment extends Fragment implements OnClick {
         adapter2 = new Adapter(list2,  this);
         recyclerView.setAdapter(adapter2);
 
-
     }
 
     private void loadData() {
@@ -89,7 +88,7 @@ public class SecondFragment extends Fragment implements OnClick {
                 break;
 
             case 15:
-                list2.add(new Continents("Антарктика",R.drawable.ic_kg));
+                requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container,new ThirthFragment()).commit();
                 break;
 
             case 16:
