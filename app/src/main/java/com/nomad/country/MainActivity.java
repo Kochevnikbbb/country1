@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().add(R.id.container, new MainFragment()).commit();
     }
 
-    @Override
+/*    @Override
     public void onBackPressed() {
         if (isMainFragment) {
             super.onBackPressed();
@@ -23,5 +23,5 @@ public class MainActivity extends AppCompatActivity {
             isMainFragment = true;
         }
 
-    }
+    }*/
 }

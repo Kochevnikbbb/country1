@@ -54,19 +54,16 @@ public class MainFragment extends Fragment implements OnClick {
 
     @Override
     public void onClick(Continents continents) {
-//        Toast.makeText(requireActivity(), "Click " + continents.getName(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(requireActivity(), "" + continents.getName(), Toast.LENGTH_SHORT).show();
 //        MainActivity activity = (MainActivity) requireActivity();
 
-        Bundle bundle = new Bundle();
-        Fragment fragment = new SecondFragment();
+            Bundle bundle = new Bundle();
+            Fragment fragment = new SecondFragment();
+            bundle.putInt(key, continents.getId());
+            fragment.setArguments(bundle);
+            requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container,
+                    fragment).addToBackStack("a").commit();
 
-        bundle.putInt(key, continents.getId());
-
-        fragment.setArguments(bundle);
-        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment).commit();
-//        if (continents.getImage() == R.drawable.ic_cas){
-//
-//        }
 
     }
 }
